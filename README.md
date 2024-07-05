@@ -31,7 +31,7 @@
 [Foundry]: https://img.shields.io/badge/Foundry-12-orange?style=flat-square
 [Foundry URL]: https://foundryvtt.com
 
-[Version]: https://img.shields.io/badge/Version-12.328-informational?style=flat-square
+[Version]: https://img.shields.io/badge/Version-12-informational?style=flat-square
 [Version URL]: https://github.com/GMonlineua/foundryvtt-ua/releases/tag/v12.328
 
 [License]: https://img.shields.io/badge/License-MIT-green?style=flat-square
