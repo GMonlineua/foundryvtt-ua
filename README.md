@@ -28,10 +28,10 @@
  - [Локалізація WoD 5e](https://github.com/InqShanila/vtm5e-ukrainian)
  - [Локалізація PF 2e](https://github.com/reyzor1991/foundry-vtt-uk)
 
-[Foundry]: https://img.shields.io/badge/Foundry-12-orange?style=flat-square
+[Foundry]: https://img.shields.io/badge/Foundry-12.328-orange?style=flat-square
 [Foundry URL]: https://foundryvtt.com
 
-[Version]: https://img.shields.io/badge/Version-12-informational?style=flat-square
+[Version]: https://img.shields.io/badge/Version-12.328.0-informational?style=flat-square
 [VersionURL]: https://github.com/GMonlineua/foundryvtt-ua/releases/tag/v12.328
 
 [License]: https://img.shields.io/badge/License-MIT-green?style=flat-square
