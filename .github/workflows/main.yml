@@ -40,7 +40,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto update files"
-            git push origin development
+            git push
           fi
 
       - name: Create Zip Archive
