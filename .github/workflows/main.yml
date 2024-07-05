@@ -27,6 +27,7 @@ jobs:
       - name: Update Readme
         run: |
           PACKAGE="https://img.shields.io/badge/Version-${{ env.BUILD_VERSION }}-informational?style=flat-square"
+          PACKAGE_LINK="https://github.com/GMonlineua/foundryvtt-ua/releases/tag/v${{ env.RELEASE_VERSION }}"
           FOUNDRY="https://img.shields.io/badge/Foundry-${{ env.RELEASE_VERSION }}-orange?style=flat-square"
           sed -i "s|\[Version\]:.*|\[Version\]: $PACKAGE|" README.md
           sed -i "s|\[Foundry\]:.*|\[Foundry\]: $FOUNDRY|" README.md
@@ -39,7 +40,7 @@ jobs:
           if git diff-index --quiet HEAD; then
             echo "No changes to commit"
           else
-            git commit -m "Auto update files"
+            git commit -m "Auto update files ${{ env.RELEASE_VERSION }}"
             git push
           fi
 

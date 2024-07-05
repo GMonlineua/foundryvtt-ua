@@ -2,7 +2,7 @@
 ![](https://foundryvtt.com/static/assets/icons/fvtt.png?raw=true)
 
 [![Foundry]][Foundry URL]
-[![Version]][Version URL]
+[![Version]][VersionURL]
 [![License]][URL]
 
 Переклад інтерфейсу [Foundry Virtual Tabletop](http://foundryvtt.com) українською мовою.
@@ -32,7 +32,7 @@
 [Foundry URL]: https://foundryvtt.com
 
 [Version]: https://img.shields.io/badge/Version-12-informational?style=flat-square
-[Version URL]: https://github.com/GMonlineua/foundryvtt-ua/releases/tag/v12.328
+[VersionURL]: https://github.com/GMonlineua/foundryvtt-ua/releases/tag/v12.328
 
 [License]: https://img.shields.io/badge/License-MIT-green?style=flat-square
 [URL]: https://github.com/GMonlineua/foundryvtt-ua/blob/main/LICENSE.md
