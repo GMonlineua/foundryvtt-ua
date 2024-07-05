@@ -1,7 +1,7 @@
 # Translation Foundry VTT: Ukrainian [Core]
 ![](https://foundryvtt.com/static/assets/icons/fvtt.png?raw=true)
 
-[![Foundry Shield]][Foundry URL]
+[![Foundry]][Foundry URL]
 [![Version]][Version URL]
 [![License]][URL]
 
