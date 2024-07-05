@@ -1,0 +1,60 @@
+name: Create Release
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Get Buld Version
+        run: echo "BUILD_VERSION=$(jq -r '.version' module.json)" >> $GITHUB_ENV
+
+      - name: Get Release Tag
+        run: echo "RELEASE_VERSION=$(jq -r '.compatibility.verified' module.json)" >> $GITHUB_ENV
+
+      - name: Update Download Link
+        run: |
+          jq '.download = "https://github.com/GMonlineua/foundryvtt-ua/releases/download/v${{ env.RELEASE_VERSION }}/foundry.zip"' module.json > tmp.json && mv tmp.json module.json
+
+      - name: Update Readme
+        run: |
+          PACKAGE="https://img.shields.io/badge/Version-${{ env.BUILD_VERSION }}-informational?style=flat-square"
+          FOUNDRY="https://img.shields.io/badge/Foundry-${{ env.RELEASE_VERSION }}-orange?style=flat-square"
+          sed -i "s|\[Version\]:.*|\[Version\]: $PACKAGE|" README.md
+          sed -i "s|\[Foundry\]:.*|\[Foundry\]: $FOUNDRY|" README.md
+
+      - name: Commit AutoBuild
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add README.md system.json
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update files"
+            git push origin development
+          fi
+
+      - name: Create Zip Archive
+        run: |
+          zip -r foundry.zip module.json lang/uk.json
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ env.RELEASE_VERSION }}
+          name: Release ${{ env.RELEASE_VERSION }}
+          draft: false
+          prerelease: false
+          files: ./foundry.zip
