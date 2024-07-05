@@ -2,7 +2,11 @@ name: Create Release
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+    paths:
+      - 'module.json'
+
 
 jobs:
   build:
