@@ -3,7 +3,7 @@
   "title": "Translation: Ukrainian [Core]",
   "version": "12.328.0",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "12",
     "verified": "12.328",
     "maximum": "12"
   },
