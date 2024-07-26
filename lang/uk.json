@@ -462,16 +462,16 @@
   "COMPENDIUM.OwnershipReset": "Скинути до Усталених",
   "COMPENDIUM.ART": {
     "CONFIG": {
-      "Hint": "Use the arrows to adjust the priority of the art sources. When a single Actor has art provided by multiple sources, the one with the highest priority will be used.",
-      "Portraits": "Portraits",
-      "PriorityDecrease": "Decrease Priority",
-      "PriorityIncrease": "Increase Priority",
-      "Tokens": "Tokens"
+      "Hint": "Використовуйте стрілки, щоб відрегулювати пріоритет джерел зображень. Якщо один актор має ілюстрації з кількох джерел, буде використано ілюстрацію з найвищим пріоритетом.",
+      "Portraits": "Портрети",
+      "PriorityDecrease": "Зменшити Пріоритет",
+      "PriorityIncrease": "Збільшити Пріоритет",
+      "Tokens": "Токени"
     },
     "SETTING": {
-      "Hint": "Configure which system- and module-provided art should be used.",
-      "Label": "Configure Art",
-      "Title": "Compendium Art"
+      "Hint": "Виберіть, зображення з яких систем та модулів слід використовувати.",
+      "Label": "Налаштувати Зображення",
+      "Title": "Зображення Збірників"
     }
   },
   "CONTROLS.Title": "Контроль Грою",
@@ -753,7 +753,7 @@
   "DOCUMENT.Combatant": "Учасник Бою",
   "DOCUMENT.Combatants": "Учасники Бою",
   "DOCUMENT.CopyOf": "{name} (Копія)",
-  "DOCUMENT.Document": "Document",
+  "DOCUMENT.Document": "Документ",
   "DOCUMENT.Drawing": "Малюнок",
   "DOCUMENT.Drawings": "Малюнки",
   "DOCUMENT.Folder": "Тека",
@@ -1002,7 +1002,7 @@
       "Add": "Додати Мітку",
       "Remove": "Вилучити Мітку",
       "ErrorBlank": "Tags in an HTMLStringTagsElement may not be blank.",
-      "ErrorNonUnique": "Tag \"{tag}\" is already set."
+      "ErrorNonUnique": "Тег \"{tag}\" вже встановлений."
     }
   },
   "FILES.CreateDirectory": "Створити Каталог",
@@ -1084,7 +1084,7 @@
   "HUD.TilePlay": "Відтворити Відео Тайла",
   "HUD.TilePause": "Призупинити Відео Тайла",
   "HUD.WarningEffectNoActor": "Ви не можете призначити ефекти стану токену, який не має пов'язаного з ним актора.",
-  "HTMLDocumentTagsElement.PLACEHOLDER": "Enter UUID or Drop {type}",
+  "HTMLDocumentTagsElement.PLACEHOLDER": "Введіть UUID або Перетягніть {type}",
   "JOURNAL.ModeText": "Текст",
   "JOURNAL.ModeImage": "Зображення",
   "JOURNAL.ActionShow": "Показати Гравцям",
@@ -2395,8 +2395,8 @@
             "hint": "Події, за якими слідкує ця поведінка."
           },
           "once": {
-            "label": "Once",
-            "hint": "Disable the behavior after the first time it's triggered."
+            "label": "Одноразово",
+            "hint": "Відключити поведінку після її виконання першого разу."
           }
         }
       },
@@ -2430,27 +2430,27 @@
       "displayScrollingText": {
         "FIELDS": {
           "color": {
-            "label": "Color",
-            "hint": "The color of the scrolling text."
+            "label": "Колір",
+            "hint": "Колір тексту прокручування."
           },
           "text": {
-            "label": "Text",
-            "hint": "The text that is displayed when the behavior is triggered."
+            "label": "Текст",
+            "hint": "Текст, який відображається, коли запускається поведінка."
           },
           "visibility": {
-            "label": "Visibility",
-            "hint": "Configure which Users will see the scrolling text based on permission level."
+            "label": "Видимість",
+            "hint": "Встановити, які користувачі будуть бачити текст прокручування на основі рівня дозволів."
           }
         },
         "VISIBILITY_MODES": {
           "GAMEMASTER": {
-            "label": "Gamemaster"
+            "label": "Ігромайстер"
           },
           "OBSERVER": {
-            "label": "Observer"
+            "label": "Спостерігач"
           },
           "ANYONE": {
-            "label": "Anyone"
+            "label": "Будь-хто"
           }
         }
       },
@@ -2461,7 +2461,7 @@
             "hint": "Макрос, який виконується, коли відбувається одна з подій."
           },
           "everyone": {
-            "label": "Everyone",
+            "label": "Усі",
             "hint": "Configure whether the Macro is executed by all connected Users instead of a single User with sufficient permissions."
           }
         }
@@ -2854,19 +2854,19 @@
   },
   "TOKEN.RING": {
     "EFFECTS": {
-      "BKG_WAVE": "Background Wave",
+      "BKG_WAVE": "Фонові Хвилі",
       "RING_GRADIENT": "Градієнт Кільця",
       "RING_PULSE": "Пульсація Кільця",
-      "INVISIBILITY": "Spectral Pulse"
+      "INVISIBILITY": "Спектральна Пульсація"
     },
     "SHEET": {
       "legend": "Динамічне Кільце Токену"
     },
     "SETTINGS": {
-      "label": "Dynamic Token Rings",
-      "hint": "Choose an available dynamic token ring visualization. Changing it requires a reload.",
-      "coreSteel": "Foundry VTT Steel Ring",
-      "coreBronze": "Foundry VTT Bronze Ring"
+      "label": "Динамічні Кільця Токенів",
+      "hint": "Виберіть доступну динамічну візуалізацію. Її зміна потребує перезавантаження.",
+      "coreSteel": "Сталеве Кільце Foundry VTT",
+      "coreBronze": "Бронзове Кільце Foundry VTT"
     }
   },
   "TYPES.Base": "Базовий",
@@ -2880,7 +2880,7 @@
   "TYPES.Macro.chat": "Чат",
   "TYPES.Macro.script": "Скрипт",
   "TYPES.RegionBehavior.adjustDarknessLevel": "Регулювання Рівня Темряви",
-  "TYPES.RegionBehavior.displayScrollingText": "Display Scrolling Text",
+  "TYPES.RegionBehavior.displayScrollingText": "Показувати Текст Прокручування",
   "TYPES.RegionBehavior.executeMacro": "Виконати Макрос",
   "TYPES.RegionBehavior.executeScript": "Виконати Скрипт",
   "TYPES.RegionBehavior.pauseGame": "Призупинити Гру",
