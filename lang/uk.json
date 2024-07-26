@@ -834,8 +834,8 @@
   "DRAWING.RoleHint": "Малюнок, який представляє \"Об'єкт\", відображається в групі Основне Полотно і на нього впливає освітлення і туман війни. Малюнок, який передає \"Інформацію\", відображається в групі \"Інтерфейс\" і є видимим для всіх гравців, якщо його не сховати.",
   "DRAWING.Object": "Об'єкт",
   "DRAWING.Information": "Інформація",
-  "DRAWING.JointValidationError": "Drawings must have visible text, a visible fill, or a visible line.",
-  "DRAWING.JointValidationErrorUI": "Drawings must have visible text, a visible fill, or a visible line. Please check the default Drawings configuration settings.",
+  "DRAWING.JointValidationError": "Малюнки повинні мати видимий текст, видиму заливку або видиму лінію.",
+  "DRAWING.JointValidationErrorUI": "Малюнки повинні мати видимий текст, видиму заливку або видиму лінію. Будь ласка, перевірте налаштування конфігурації малюнків за замовчуванням.",
   "EFFECT.MODE_CUSTOM": "Власний",
   "EFFECT.MODE_MULTIPLY": "Помножити",
   "EFFECT.MODE_ADD": "Додати",
@@ -1001,7 +1001,7 @@
     "TAGS": {
       "Add": "Додати Мітку",
       "Remove": "Вилучити Мітку",
-      "ErrorBlank": "Tags in an HTMLStringTagsElement may not be blank.",
+      "ErrorBlank": "Теги в HTMLStringTagsElement не може бути порожнім.",
       "ErrorNonUnique": "Тег \"{tag}\" вже встановлений."
     }
   },
@@ -1132,7 +1132,7 @@
   "JOURNALENTRYPAGE.ShowImageOnly": "Показати Лише Зображення",
   "JOURNALENTRYPAGE.ShowImageTitle": "Показати Назву Зображення",
   "JOURNALENTRYPAGE.ShowImageCaption": "Показати Заголовок Зображення",
-  "JOURNALENTRYPAGE.ShowTitle": "Показати Заголовок",
+  "JOURNALENTRYPAGE.ShowTitle": "Заголовок",
   "JOURNALENTRYPAGE.HeadingLevel": "Рівень Заголовка",
   "JOURNALENTRYPAGE.Level": "Рівень {level}",
   "KEYBINDINGS.NavLabel": "Вкладки Конфігурації Клавіш",
@@ -1450,7 +1450,7 @@
   "SCENES.ForegroundElevationHint": "Висота в одиницях відстані, яка налаштовує висоту зображення на передньому плані та верхніх тайлів.",
   "SCENES.BackgroundScale": "Масштаб Фонового Зображення",
   "SCENES.BackgroundScaleHint": "Використовуйте SHIFT + колесо миші або SHIFT + стрілка вгору і SHIFT + стрілка вниз для налаштування розміру фонового зображення.",
-  "SCENES.CaptureInitialViewPosition": "Captured canvas position as initial view in the Scene configuration form.",
+  "SCENES.CaptureInitialViewPosition": "Захоплене положення полотна як початковий вигляд у формі конфігурації Сцени.",
   "SCENES.Configure": "Налаштувати",
   "SCENES.ConfigTitle": "Налаштування Сцени",
   "SCENES.Darkness": "Рівень Темряви",
@@ -1547,8 +1547,8 @@
     "Intensity": "Інтенсивність Відтінку",
     "IntensityHint": "Налаштуйте, наскільки інтенсивно обраний відтінок буде змішуватися зі сценою. Висока інтенсивність відтінку насичує сцену кольором, можливо, перекриваючи наявні кольори. Менша інтенсивність відтінку більш тонко вписує вибраний колір у сцену.",
     "ResetEnvironment": "Відновити Параметри за Замовчуванням",
-    "BlendAmbience": "Blend Ambience",
-    "BlendAmbienceHint": "When this option is checked, the base ambience values are merged with the darkness ambience values according to darkness level.",
+    "BlendAmbience": "Змішування Звуків Оточення",
+    "BlendAmbienceHint": "Коли позначено цей параметр, базові значення звуків середовища об'єднані зі змінами темряви відповідно до рівня темряви.",
     "BaseAmbience": "Базове Середовище",
     "DarkAmbience": "Темне Середовище",
     "DarknessLock": "Блокування Рівня Темряви",
@@ -1702,7 +1702,7 @@
   "SETUP.UpdateChannelHint": "Ви можете вибрати канал оновлення для керування типами оновлень, які хочете отримувати для програмного забезпечення Foundry Virtual Tabletop. Якщо у вас немає певної причини для зміни цього пункту, рекомендується використовувати канал Stable.",
   "SETUP.UpdateCheck": "Оновити",
   "SETUP.UpdateCheckFor": "Перевірити Наявність Оновлень",
-  "SETUP.UpdatePerformIfAvailable": "Perform Update If Available",
+  "SETUP.UpdatePerformIfAvailable": "Виконувати оновлення, якщо доступне",
   "SETUP.UpdateHint": "Ви можете оновити Foundry Virtual Tabletop до нової версії шляхом перевірки оновлення на бажаному Каналі Оновлення.",
   "SETUP.UpdatePrototype": "Прототип",
   "SETUP.UpdatePrototypeHint": "Прототип: Релізи для перегляду дизайну експериментальних функцій, які ще не повністю розроблені.",
@@ -2462,7 +2462,7 @@
           },
           "everyone": {
             "label": "Усі",
-            "hint": "Configure whether the Macro is executed by all connected Users instead of a single User with sufficient permissions."
+            "hint": "Налаштуйте, чи буде Макрос виконуватися всіма підключеними користувачами, а не одним користувачем з достатніми правами."
           }
         }
       },
@@ -2481,12 +2481,12 @@
             "hint": "Регіон призначення, до якого телепортується Токен, коли він потрапляє в Регіон."
           },
           "choice": {
-            "label": "Allow Choice",
-            "hint": "Allow the User that moved the Token to choose whether to teleport it."
+            "label": "Дозволити Вибір",
+            "hint": "Дозволити Користувачеві переміщати Токен, щоб вибрати, чи телепортувати його."
           }
         },
-        "Confirm": "Do you want to teleport {token}?",
-        "ConfirmGM": "Do you want to teleport {token} to {region} in {scene}?"
+        "Confirm": "Ви хочете телепортувати {token}?",
+        "ConfirmGM": "Ви хочете телепортувати {token} в {region} в {scene}?"
       },
       "toggleBehavior": {
         "FIELDS": {
@@ -2843,7 +2843,7 @@
       "subject": {
         "scale": {
           "label": "Виправлення Масштабу",
-          "hint": "Adjust the relative size of the subject texture to the ring. Increasing this value will make the subject texture larger compared to the ring. Use lower values to reduce the subject texture size if it appears too dominant."
+          "hint": "Налаштуйте відносний розмір текстури об'єкта до кільця. Збільшення цього значення зробить текстуру об'єкта більшою порівняно з кільцем. Використовуйте менші значення, щоб зменшити розмір текстури об'єкта, якщо вона виглядає надто домінуючою."
         },
         "texture": {
           "label": "Текстура",
