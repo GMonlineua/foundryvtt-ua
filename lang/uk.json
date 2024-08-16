@@ -2866,7 +2866,13 @@
       "label": "Динамічні Кільця Токенів",
       "hint": "Виберіть доступну динамічну візуалізацію. Її зміна потребує перезавантаження.",
       "coreSteel": "Сталеве Кільце Foundry VTT",
-      "coreBronze": "Бронзове Кільце Foundry VTT"
+      "coreBronze": "Бронзове Кільце Foundry VTT",
+      "FIT_MODES": {
+        "label": "Dynamic Token Rings Fit Modes",
+        "hint": "Choose the fit mode for the Dynamic Rings.",
+        "subject": "Standard",
+        "grid": "Grid"
+      }
     }
   },
   "TYPES.Base": "Базовий",
