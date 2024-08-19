@@ -2868,10 +2868,10 @@
       "coreSteel": "Сталеве Кільце Foundry VTT",
       "coreBronze": "Бронзове Кільце Foundry VTT",
       "FIT_MODES": {
-        "label": "Dynamic Token Rings Fit Modes",
-        "hint": "Choose the fit mode for the Dynamic Rings.",
-        "subject": "Standard",
-        "grid": "Grid"
+        "label": "Режими динамічної підгонки кілець токенів",
+        "hint": "Виберіть режим підгонки Динамічних Кілець.",
+        "subject": "Стандартний",
+        "grid": "Сітка"
       }
     }
   },
