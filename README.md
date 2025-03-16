@@ -25,14 +25,15 @@
 Будь який фідбек по перекладу, оформленню і т.д., а також інші пропозиції можна писати в приватні повідомлення Discord vlad_dracula.
 
 ## Інше
- - [Локалізація WoD 5e](https://github.com/InqShanila/vtm5e-ukrainian)
- - [Локалізація PF 2e](https://github.com/reyzor1991/foundry-vtt-uk)
+ - [Локалізація WoD 5e](https://foundryvtt.com/packages/vtm5e-ukrainian)
+ - [Локалізація PF 2e](https://foundryvtt.com/packages/pfe2ukua)
+ - [Локалізація D&D5e](https://foundryvtt.com/packages/lang-uk-dnd5e)
 
-[Foundry]: https://img.shields.io/badge/Foundry-12.330-orange?style=flat-square
+[Foundry]: https://img.shields.io/badge/Foundry-12.331-orange?style=flat-square
 [Foundry URL]: https://foundryvtt.com
 
-[Version]: https://img.shields.io/badge/Version-12.330.0-informational?style=flat-square
-[VersionURL]: https://github.com/GMonlineua/foundryvtt-ua/releases/tag/v12.328
+[Version]: https://img.shields.io/badge/Version-12.331.0-informational?style=flat-square
+[VersionURL]: https://github.com/GMonlineua/foundryvtt-ua/releases/tag/v12.331
 
 [License]: https://img.shields.io/badge/License-MIT-green?style=flat-square
 [URL]: https://github.com/GMonlineua/foundryvtt-ua/blob/main/LICENSE.md
