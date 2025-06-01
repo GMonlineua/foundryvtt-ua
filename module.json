@@ -1,13 +1,13 @@
 {
   "id": "lang-ua",
-  "title": "Translation: Ukrainian [Core]",
-  "version": "12.331.0",
+  "title": "OLD! Translation: Ukrainian [Core]",
+  "version": "13.344",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12.331",
-    "maximum": "12"
+    "minimum": "13",
+    "verified": "13.344",
+    "maximum": "13"
   },
-  "description": "Переклад інтерфейсу Foundry VTT українською мовою",
+  "description": "Новий переклад: lang-uk (https://foundryvtt.com/packages/lang-uk)",
   "authors": [
     {
       "name": "GMonline UA",
@@ -17,6 +17,9 @@
     }
   ],
   "coreTranslation": true,
+  "scripts": [
+    "warning.js"
+  ],
   "languages": [
     {
       "lang": "uk",
@@ -28,5 +31,5 @@
   "readme": "https://github.com/GMonlineua/foundryvtt-ua/blob/main/README.md",
   "license": "https://github.com/GMonlineua/foundryvtt-ua/blob/main/LICENSE.md",
   "manifest": "https://raw.githubusercontent.com/GMonlineua/foundryvtt-ua/main/module.json",
-  "download": "https://github.com/GMonlineua/foundryvtt-ua/releases/download/v12.331/foundry.zip"
+  "download": "https://github.com/GMonlineua/foundryvtt-ua/releases/download/v13.344/foundry.zip"
 }
